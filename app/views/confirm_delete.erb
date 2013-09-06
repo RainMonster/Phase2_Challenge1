@@ -1,0 +1,6 @@
+<h3>Please confirm that you wish to delete this task</h3>
+<form action="/delete/<%= @confirm_task.id %>" method="post">
+  <input type="submit" value="Delete">
+</form>
+<p><a href="/task/<%= @confirm_task.id %>">Return to task update page</a></p>
+<p><a href="/">Return to main page</a></p>  
